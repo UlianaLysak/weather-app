@@ -37,25 +37,22 @@ li:first-letter {
   padding: 20px;
   border: 1px solid #dadde1;
   border-radius: 5px;
-  max-width: 600px;
-  margin: 30px 0 auto;
 }
 .owerview {
   margin-bottom: 20px;
 }
+
 .weather-temperature img {
-  margin-right: 6 px;
-  margin-top: 0px;
+  margin-right: 5 px;
   height: 84px;
   width: 84px;
 }
 
 .weather-temperature strong {
   color: rgb(33, 33, 33);
-  font-size: 60px;
+  font-size: 55px;
   line-height: 1;
   font-weight: 300;
-  margin: 0;
 }
 
 .weather-temperature .units {
