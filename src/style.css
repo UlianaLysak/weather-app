@@ -18,10 +18,15 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
+
   color: rgb(135, 135, 135);
   font-size: 16px;
   font-weight: 100;
   line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
 }
 
 .weather-app-wrapper {
@@ -39,5 +44,22 @@ li {
   margin-bottom: 20px;
 }
 .weather-temperature img {
-  margin-right: 10px;
+  margin-right: 6 px;
+  margin-top: 0px;
+  height: 84px;
+  width: 84px;
+}
+
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 300;
+  margin: 0;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 15px;
+  top: -30px;
 }
