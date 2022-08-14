@@ -48,12 +48,25 @@ li:first-letter {
   margin-bottom: 20px;
 }
 
-.weather-temperature img {
-  margin-right: 5 px;
-  height: 84px;
-  width: 84px;
+.icon {
+  margin: 0;
+  height: 64px;
+  width: 64px;
 }
 
+.sun,
+.cloud,
+.rain,
+.suncloud,
+.sunrain {
+  width: 120px;
+  height: 120px;
+}
+
+.card {
+  width: 7rem;
+  margin: 10 auto;
+}
 .weather-temperature strong {
   color: rgb(33, 33, 33);
   font-size: 55px;
