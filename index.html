@@ -14,14 +14,19 @@
         <div class="container">
           <div class="weather-app-wrapper"> 
           <div class="weather-app">
+       
             <form id="search-form" class="mb-3">
               <div class="row">
-                <div class="col-9">
+                <div class="col-2"> 
+<img src="src/images/logo.jpg" alt="logo" width="80" class="logo">
+                </div>
+                <div class="col-6">
               <input 
               type="search" 
               placeholder="Type a city "
               class="form-control" 
               id="city-input"
+              autocomplete="off"
               />     
                   </div>
                   <div class="col-3">
@@ -40,7 +45,7 @@
             <div class="col-6">
               <div class="clearfix weather-temperature"> 
               <img src="https://openweathermap.org/img/wn/04d@2x.png" 
-              alt="Clear" 
+              alt="Clear"  width="100"
               id="icon"
               class="float-left"
               />
@@ -59,14 +64,88 @@
 </ul>
             </div>
           </div>
-        </div>     
+            
+   <div class="row second">
+    <div class="col-2">
+            <div class="card" style="width: 7rem;">
+              <img src="src/images/sun.png" class="sun" alt="sun" />
+              <div class="card-body">
+                <p class="card-text1">
+                  June, 19 
+                </p>
+                    <p class="card-text2">
+                      +15 +18° C
+                    </p> 
+              </div>
+            </div>
+          </div>
+          <div class="col-2">
+              <div class="card" style="width: 7rem;">
+                <img src="src/images/cloud.png" class="cloud" alt="cloud" />
+                <div class="card-body">
+                  <p class="card-text1">
+                    June, 20 
+                  </p>
+                      <p class="card-text2">
+                        +15 +18° C
+                      </p> 
+                </div>
+              </div>
+            </div>
+
+          <div class="col-2">
+            <div class="card" style="width: 7rem;">
+              <img src="src/images/suncloud.png" class="suncloud" alt="suncloud" />
+              <div class="card-body">
+                <p class="card-text1">
+                  June, 21 
+                </p>
+                    <p class="card-text2">
+                      +15 +18° C
+                    </p> 
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-2">
+              <div class="card" style="width: 7rem;">
+                <img src="src/images/rain.png" class="rain" alt="rain" />
+                <div class="card-body">
+                  <p class="card-text1">
+                    June, 22 
+                  </p>
+                      <p class="card-text2">
+                        +15 +18° C
+                      </p> 
+                </div>
+              </div>
+            </div>
+  
+          <div class="col-2">
+              <div class="card" style="width: 7rem;">
+                <img src="src/images/sunrain.png" class="sunrain" alt="sunrain" />
+                <div class="card-body">
+                  <p class="card-text1">
+                    June, 23 
+                  </p>
+                      <p class="card-text2">
+                        +15 +18° C
+                      </p> 
+                </div>
+              </div>
+            </div>
+
+            
+        
+    </div>
+          </div>
+          
          <small>
             <a href="https://github.com/UlianaLysak/weather-app" target="_blank">Open-source code</a>
              by Uliana Lysak
-             </div>
           </small>
           </div>
-          </div>
+           </div>
         <script src="src/app.js"></script>
       </body>
     </html>
