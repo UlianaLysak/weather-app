@@ -72,14 +72,25 @@ li:first-letter {
   font-size: 55px;
   line-height: 1;
   font-weight: 300;
+  text-decoration: none;
 }
 
 .weather-temperature .units {
   position: relative;
   font-size: 15px;
   top: -30px;
+  text-decoration: none;
 }
 
 .search-form .city-input {
   display: inline;
+}
+
+.weather-temperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
